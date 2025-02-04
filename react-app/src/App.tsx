@@ -1,15 +1,14 @@
 
 import React, { useState } from 'react';
 import ExpandableText from './components/ExpandableText';
+import Form from './components/Form';
 
 function App() {
   
 
   return (
     <>
-      <ExpandableText maxLength={100}>
-        Hello World
-      </ExpandableText>
+      <Form />
     </>
   );
 }
