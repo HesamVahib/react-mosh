@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { FieldValues, useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
-import { set } from 'immer/dist/internal.js'
 
 const schema = z.object({
   description: z.string().min(3, { message: 'Description should be at least 3 characters.'}),
